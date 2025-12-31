@@ -1,0 +1,20 @@
+# MATLAB temporary files
+*.asv
+*.autosave
+*.m~
+
+# MATLAB compiled files
+*.mex*
+*.p
+
+# Simulink files
+*.slxc
+slprj/
+
+# Code generation folders
+codegen/
+
+# Mac/Windows system files
+.DS_Store
+Thumbs.db
+desktop.ini
