@@ -6,7 +6,7 @@ This is a full flight simulation for a boeing 737-800 plane using real world par
 - Realistic aerodynamics, atmospheric, and thrust modeling
 - Multi-phase flight management with smooth transitions to simulate realistic and safe flight
 - ## Results
-![Flight Simulation Results](flight_simulation_results.png)
+![Flight Simulation Results](results/flight_simulation_results.png)
 The simulation displays steady climb for 3 different phases, altitude control at 35000 ft with ±250 ft error, and steady descent
 ## Usage
 Run `fullFlightSimulation.m` in MATLAB with required dependencies.
