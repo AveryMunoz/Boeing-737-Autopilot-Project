@@ -5,15 +5,6 @@ function [A, B, f0] = linearizeAircraft(X_trim, u_trim, params)
 % system in comparison to a nonlinear system. Also helps with testing
 % linearization and attaining trim points (equilibrium points where the
 % acceleration is 0)
-%
-%   X_trim : 6x1 state vector at trim [x; h; Vx; Vz; theta; q]
-%   u_trim : 2x1 input vector at trim [elevator_cmd; throttle_cmd]
-%   params : parameters struct (same as used in flightSimulation)
-%
-%   Returns:
-%     A  : nxn state matrix (continuous time)
-%     B  : nxm input matrix
-%     f0 : f(X_trim, u_trim) (should be ~0 at perfect trim)
 
 % Dimensions
 nx = length(X_trim);  % should be 6
